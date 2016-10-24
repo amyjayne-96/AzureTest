@@ -5,7 +5,3 @@ $db = new mysqli
     'b6eddf165f7163',
     'b43888f8',
     'ajw1405437');
-// test if connection was established, and print any errors
-if($db->connect _errno){
-    die("Connectfailed:".$db->connect _error.);
-}
